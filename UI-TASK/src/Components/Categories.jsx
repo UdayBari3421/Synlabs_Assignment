@@ -10,11 +10,11 @@ import traveller from "../Assets/imgs/Traveller.png";
 function Categories() {
   return (
     <div className="bg-[#f7efec] flex flex-col py-10 px-16 gap-28">
-      <span className="flex justify-between">
+      <span className="flex justify-between lg:flex-nowrap flex-wrap">
         <h1 className="text-[#855c38] font-semibold text-4xl">Categories</h1>
         <BorderButton text="View All" />
       </span>
-      <div className="flex justify-center items-center gap-2">
+      <div className="flex justify-center items-center gap-2 lg:flex-nowrap flex-wrap">
         <CategoryCard className={"bg-[#d0a435]"} right="right-[191px]" title="Foodie" personImage={sanjeevKapoor} />
         <CategoryCard className={"bg-[#1db934]"} right="right-[182px]" title="Techies" personImage={techGuru} />
         <CategoryCard className={"bg-[#2667df]"} right="right-[186px]" title="Fashionistas" personImage={fashionistas} />

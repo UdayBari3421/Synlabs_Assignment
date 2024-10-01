@@ -38,8 +38,8 @@ function ImageBoxes() {
           <img src={screen} className="w-[54%] h-[100%] rounded-t-3xl absolute top-80" />
         </div>
       </div>
-      <div className="flex w-[93%] mx-auto justify-between items-center rounded-2xl border border-purple-900 px-5 py-4">
-        <div className="flex w-6/12 flex-col justify-between gap-4">
+      <div className="flex w-[93%] mx-auto justify-between items-center rounded-2xl border border-purple-900 lg:flex-nowrap flex-wrap px-5 py-4">
+        <div className="flex w-6/12 flex-col lg:justify-between justify-center gap-4 lg:flex-nowrap flex-wrap">
           <div className="flex justify-start gap-3 items-center">
             <span className="p-1 block bg-purple-600 bg-opacity-10 rounded-lg text-2xl text-purple-700">
               <BiLogoYoutube />

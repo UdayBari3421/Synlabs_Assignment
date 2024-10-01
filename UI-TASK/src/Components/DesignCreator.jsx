@@ -19,13 +19,13 @@ function DesignCreator() {
         <p className="text-4xl underline underline-offset-8 text-purple-600">Read More</p>
       </div>
       <div className="w-5/12 flex flex-col justify-center gap-5">
-        <h1 className="text-7xl font-semibold">Aman k.</h1>
-        <span className="flex items-center gap-5">
+        <h1 className="lg:text-7xl text-4xl font-semibold lg:text-start text-center">Aman k.</h1>
+        <span className="flex items-center gap-5 lg:justify-start justify-center lg:flex-nowrap flex-wrap">
           <img src={hifiBoy} className="h-14 w-14 rounded-full" />
-          <h1 className="text-5xl font-semibold text-gray-400">Design Creator</h1>
+          <h1 className="lg:text-5xl text-2xl font-semibold text-gray-400">Design Creator</h1>
         </span>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini</p>
-        <span className="flex justify-start items-center">
+        <span className="flex lg:justify-start justify-center items-center lg:flex-nowrap flex-wrap">
           <img src={char1} className="w-[55px] object-cover rounded-full p-2 h-w-[55px]" />
           <img src={hifiBoy} className="w-[55px] object-cover rounded-full p-2 h-w-[55px]" />
           <img src={char2} className="w-[55px] object-cover rounded-full p-2 h-w-[55px]" />

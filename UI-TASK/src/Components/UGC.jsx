@@ -18,7 +18,7 @@ function UGC() {
         </span>
         <BorderButton text="View All" />
       </div>
-      <div className="flex justify-evenly w-full">
+      <div className="flex justify-evenly w-full lg:flex-nowrap flex-wrap">
         <CreatorCard followerCount="2.6M" creatorUsername="financewithsharan" creatorImage={sharanHegde} creatorName="Sharan Hegde" />
         <CreatorCard followerCount="1.6M" creatorUsername="dollysingh" creatorImage={dollySingh} creatorName="Dolly Singh" />
         <CreatorCard followerCount="597K" creatorUsername="thatbohogirl" creatorImage={kritika} creatorName="kritika Khurana" />

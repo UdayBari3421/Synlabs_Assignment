@@ -18,7 +18,7 @@ function OnRise() {
         </span>
         <BorderButton text="View All" />
       </div>
-      <div className="flex justify-evenly w-full">
+      <div className="flex justify-evenly w-full lg:flex-nowrap flex-wrap">
         <CreatorCard followerCount="1.9M" creatorUsername="tanmaynhat" creatorImage={tanmayBhatt} creatorName="Tanmay Bhatt" />
         <CreatorCard followerCount="3.7M" creatorUsername="kushakapila" creatorImage={kushaKapila} creatorName="Kusha Kapila" />
         <CreatorCard followerCount="597K" creatorUsername="mojorojo" creatorImage={rohanJoshi} creatorName="Rohan Joshi" />

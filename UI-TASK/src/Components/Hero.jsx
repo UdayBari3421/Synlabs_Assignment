@@ -22,7 +22,7 @@ function Hero() {
           <p className="font-normal text-lg">
             Explore creators across YouTube, Instagram & <br /> Facebook to curate unique content for your brand
           </p>
-          <span className="flex justify-between w-9/12">
+          <span className="flex lg:justify-between w-9/12 lg:flex-nowrap flex-wrap justify-start">
             <Dropdown options={["Instagram", "Facebook", "Youtube", "Snapchat"]} text="Account" />
             <Dropdown options={["Influencer", "Manager", "Marketing Executive", "Civilian"]} text="Category" />
             <Button text="Search" />
